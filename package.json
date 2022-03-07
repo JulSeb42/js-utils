@@ -1,0 +1,11 @@
+{
+    "name": "js-utils-julseb",
+    "version": "1.0.0",
+    "description": "Small utils components in JavaScript",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Julien Sebag",
+    "license": "MIT"
+}
