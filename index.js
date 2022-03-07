@@ -1,31 +1,31 @@
 // Import all components
-const allCities = require("./allCities.json")
-const calculateTotalSum = require("./calculateTotalSum")
-const capitalize = require("./capitalize")
-const citiesGermany = require("./citiesGermany.json")
-const convertDate = require("./convertDate")
-const convertDateShort = require("./convertDateShort")
-const convertToEmail = require("./convertToEmail")
-const convertYoutube = require("./convertYoutube")
-const getFirstName = require("./getFirstName")
-const getLastName = require("./getLastName")
-const getRandom = require("./getRandom")
-const getRandomAvatar = require("./getRandomAvatar")
-const getRandomCityGermany = require("./getRandomCityGermany")
-const getRandomDate = require("./getRandomDate")
-const getRandomLocation = require("./getRandomLocation")
-const getRandomNumber = require("./getRandomNumber")
-const getRandomString = require("./getRandomString")
-const getRandomTime = require("./getRandomTime")
-const getTimeNow = require("./getTimeNow")
-const getToday = require("./getToday")
-const regex = require("./regex")
-const scrollToTop = require("./scrollToTop")
-const slugify = require("./slugify")
-const unslugify = require("./unslugify")
+import allCities from "./allCities.json"
+import calculateTotalSum from "./calculateTotalSum"
+import capitalize from "./capitalize"
+import citiesGermany from "./citiesGermany.json"
+import convertDate from "./convertDate"
+import convertDateShort from "./convertDateShort"
+import convertToEmail from "./convertToEmail"
+import convertYoutube from "./convertYoutube"
+import getFirstName from "./getFirstName"
+import getLastName from "./getLastName"
+import getRandom from "./getRandom"
+import getRandomAvatar from "./getRandomAvatar"
+import getRandomCity from "./getRandomCity"
+import getRandomDate from "./getRandomDate"
+import getRandomLocation from "./getRandomLocation"
+import getRandomNumber from "./getRandomNumber"
+import getRandomString from "./getRandomString"
+import getRandomTime from "./getRandomTime"
+import getTimeNow from "./getTimeNow"
+import getToday from "./getToday"
+import { passwordRegex, emailRegex } from "./regex"
+import scrollToTop from "./scrollToTop"
+import slugify from "./slugify"
+import unslugify from "./unslugify"
 
 // Exports all components
-module.exports = {
+export {
     allCities,
     calculateTotalSum,
     capitalize,
@@ -38,7 +38,7 @@ module.exports = {
     getLastName,
     getRandom,
     getRandomAvatar,
-    getRandomCityGermany,
+    getRandomCity,
     getRandomDate,
     getRandomLocation,
     getRandomNumber,
@@ -46,7 +46,8 @@ module.exports = {
     getRandomTime,
     getTimeNow,
     getToday,
-    regex,
+    passwordRegex,
+    emailRegex,
     scrollToTop,
     slugify,
     unslugify,
