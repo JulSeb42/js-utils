@@ -2,7 +2,6 @@
 import allCities from "./utils/allCities.json"
 import calculateTotalSum from "./utils/calculateTotalSum"
 import capitalize from "./utils/capitalize"
-import citiesGermany from "./utils/citiesGermany.json"
 import convertDate from "./utils/convertDate"
 import convertDateShort from "./utils/convertDateShort"
 import convertToEmail from "./utils/convertToEmail"
@@ -29,7 +28,6 @@ export {
     allCities,
     calculateTotalSum,
     capitalize,
-    citiesGermany,
     convertDate,
     convertDateShort,
     convertToEmail,

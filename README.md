@@ -31,20 +31,6 @@ Capitalizes the first letter of a string
 capitalize("hello") # Hello
 ```
 
-## citiesGermany
-
-JSON file with all cities in Germany. Structure:
-
-```
-{
-    "area": "755.22",
-    "coords": { "lat": "53.56528", "lon": "10.00139" },
-    "name": "Hamburg",
-    "population": "1845229",
-    "state": "Hamburg"
-},
-```
-
 ## convertDate
 
 Converts a date in the format `yyyy-mm-dd` to `dd fullMonth yyyy`
