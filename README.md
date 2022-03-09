@@ -58,7 +58,7 @@ convertToEmail("Julien Sebag", "me.com") # julien.sebag@me.com
 
 ## convertYoutube
 
-Converts a YouTube to an embed link for iframes
+Converts a YouTube url to an embed link for iframes
 
 ```
 convertYoutube("https://www.youtube.com/watch?v=2EaxYi31ips") # https://www.youtube.com/embed/2EaxYi31ips
