@@ -64,6 +64,14 @@ Converts a YouTube url to an embed link for iframes
 convertYoutube("https://www.youtube.com/watch?v=2EaxYi31ips") # https://www.youtube.com/embed/2EaxYi31ips
 ```
 
+## convertPrice
+
+Converts an amount to a formatted price
+
+```
+convertPrice(1000, "EUR") # 1 000,00 €
+```
+
 ## getFirstName
 
 Returns the first name of a string

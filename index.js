@@ -22,6 +22,7 @@ const { passwordRegex, emailRegex } = require("./src/regex")
 const scrollToTop = require("./src/scrollToTop")
 const slugify = require("./src/slugify")
 const unslugify = require("./src/unslugify")
+const convertPrice = require("./src/convertPrice")
 
 // Exports all components
 module.exports = {
@@ -49,4 +50,5 @@ module.exports = {
     scrollToTop,
     slugify,
     unslugify,
+    convertPrice,
 }
