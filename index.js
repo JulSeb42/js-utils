@@ -1,30 +1,30 @@
-// Import all components
-import allCities from "./utils/allCities.json"
-import calculateTotalSum from "./utils/calculateTotalSum"
-import capitalize from "./utils/capitalize"
-import convertDate from "./utils/convertDate"
-import convertDateShort from "./utils/convertDateShort"
-import convertToEmail from "./utils/convertToEmail"
-import convertYoutube from "./utils/convertYoutube"
-import getFirstName from "./utils/getFirstName"
-import getLastName from "./utils/getLastName"
-import getRandom from "./utils/getRandom"
-import getRandomAvatar from "./utils/getRandomAvatar"
-import getRandomCity from "./utils/getRandomCity"
-import getRandomDate from "./utils/getRandomDate"
-import getRandomLocation from "./utils/getRandomLocation"
-import getRandomNumber from "./utils/getRandomNumber"
-import getRandomString from "./utils/getRandomString"
-import getRandomTime from "./utils/getRandomTime"
-import getTimeNow from "./utils/getTimeNow"
-import getToday from "./utils/getToday"
-import { passwordRegex, emailRegex } from "./utils/regex"
-import scrollToTop from "./utils/scrollToTop"
-import slugify from "./utils/slugify"
-import unslugify from "./utils/unslugify"
+// const all components
+const allCities = require("./src/allCities.json")
+const calculateTotalSum = require("./src/calculateTotalSum")
+const capitalize = require("./src/capitalize")
+const convertDate = require("./src/convertDate")
+const convertDateShort = require("./src/convertDateShort")
+const convertToEmail = require("./src/convertToEmail")
+const convertYoutube = require("./src/convertYoutube")
+const getFirstName = require("./src/getFirstName")
+const getLastName = require("./src/getLastName")
+const getRandom = require("./src/getRandom")
+const getRandomAvatar = require("./src/getRandomAvatar")
+const getRandomCity = require("./src/getRandomCity")
+const getRandomDate = require("./src/getRandomDate")
+const getRandomLocation = require("./src/getRandomLocation")
+const getRandomNumber = require("./src/getRandomNumber")
+const getRandomString = require("./src/getRandomString")
+const getRandomTime = require("./src/getRandomTime")
+const getTimeNow = require("./src/getTimeNow")
+const getToday = require("./src/getToday")
+const { passwordRegex, emailRegex } = require("./src/regex")
+const scrollToTop = require("./src/scrollToTop")
+const slugify = require("./src/slugify")
+const unslugify = require("./src/unslugify")
 
 // Exports all components
-export {
+module.exports = {
     allCities,
     calculateTotalSum,
     capitalize,
