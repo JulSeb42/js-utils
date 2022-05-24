@@ -9,9 +9,7 @@ JSON file with all cities and countries in the world. Structure:
 ```
 {
     "country": "Germany",
-    "name": "Berlin",
-    "lat": "52.52437",
-    "lng": "13.41053"
+    "name": "Berlin"
 },
 ```
 
@@ -202,6 +200,14 @@ Replaces accents, spaces, uppercase letters, etc., in a string to convert it to 
 
 ```
 slugify("Hello world how are you?") # hello-world-how-are-you
+```
+
+## stringifyPx
+
+Returns a value in pixels if you enter a number
+
+```
+stringifyPx(80) # 80px
 ```
 
 ## unslugify
