@@ -72,6 +72,14 @@ Converts an amount to a formatted price
 convertPrice(1000, "EUR") # 1 000,00 €
 ```
 
+## detectLanguage
+
+Search for `lang` or `language` in localStorage, and if it returns `null` both times detects the browser language
+
+```
+detectLanguage() # "fr"
+```
+
 ## getFirstName
 
 Returns the first name of a string

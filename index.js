@@ -6,6 +6,7 @@ const convertDate = require("./src/convertDate")
 const convertDateShort = require("./src/convertDateShort")
 const convertToEmail = require("./src/convertToEmail")
 const convertYoutube = require("./src/convertYoutube")
+const detectLanguage = require("./src/detectLanguage")
 const getFirstName = require("./src/getFirstName")
 const getLastName = require("./src/getLastName")
 const getRandom = require("./src/getRandom")
@@ -33,6 +34,7 @@ module.exports = {
     convertDateShort,
     convertToEmail,
     convertYoutube,
+    detectLanguage,
     getFirstName,
     getLastName,
     getRandom,

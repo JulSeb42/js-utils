@@ -1,6 +1,6 @@
 {
     "name": "js-utils-julseb",
-    "version": "1.0.16",
+    "version": "1.0.20",
     "description": "Small utils components in JavaScript",
     "main": "index.js",
     "scripts": {
@@ -10,7 +10,8 @@
     "author": "Julien Sebag",
     "license": "MIT",
     "devDependencies": {
-        "@babel/cli": "^7.17.6",
-        "@babel/core": "^7.17.5"
+        "@babel/cli": "^7.17.10",
+        "@babel/core": "^7.18.0",
+        "@babel/preset-env": "^7.18.0"
     }
 }
