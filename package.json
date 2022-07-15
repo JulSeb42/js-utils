@@ -1,6 +1,6 @@
 {
     "name": "js-utils-julseb",
-    "version": "2.0.0",
+    "version": "2.0.2",
     "description": "Small utils components in JavaScript",
     "main": "index.js",
     "scripts": {

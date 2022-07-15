@@ -54,6 +54,14 @@ convertToEmail("Julien Sebag") # julien.sebag@email.com
 convertToEmail("Julien Sebag", "me.com") # julien.sebag@me.com
 ```
 
+## convertToPascal
+
+Converts a string to PascalCase
+
+```
+convertToPascal("hello world") # HelloWorld
+```
+
 ## convertYoutube
 
 Converts a YouTube url to an embed link for iframes
